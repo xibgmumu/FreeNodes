@@ -1,4 +1,4 @@
-2024-12-15 08:20:21 [scrapy.middleware] INFO: Enabled downloader middlewares:
+2024-12-15 14:14:16 [scrapy.middleware] INFO: Enabled downloader middlewares:
 ['scrapy.downloadermiddlewares.offsite.OffsiteMiddleware',
  'scrapy.downloadermiddlewares.robotstxt.RobotsTxtMiddleware',
  'scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
@@ -13,86 +13,86 @@
  'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
  'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
  'scrapy.downloadermiddlewares.stats.DownloaderStats']
-2024-12-15 08:20:21 [scrapy.middleware] INFO: Enabled spider middlewares:
+2024-12-15 14:14:16 [scrapy.middleware] INFO: Enabled spider middlewares:
 ['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
  'scrapy.spidermiddlewares.referer.RefererMiddleware',
  'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
  'scrapy.spidermiddlewares.depth.DepthMiddleware']
-2024-12-15 08:20:21 [scrapy.middleware] INFO: Enabled item pipelines:
+2024-12-15 14:14:16 [scrapy.middleware] INFO: Enabled item pipelines:
 ['NodeScrapy.pipelines.Pipeline']
-2024-12-15 08:20:21 [scrapy.core.engine] INFO: Spider opened
-2024-12-15 08:20:21 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
-2024-12-15 08:20:21 [scrapy.extensions.telnet] INFO: Telnet console listening on 127.0.0.1:6023
-2024-12-15 08:20:21 [simple] INFO: clashmeta start
-2024-12-15 08:20:21 [simple] INFO: ndnode start
-2024-12-15 08:20:21 [simple] INFO: nodev2ray start
-2024-12-15 08:20:21 [simple] INFO: nodefree start
-2024-12-15 08:20:21 [simple] INFO: v2rayshare start
-2024-12-15 08:20:21 [simple] INFO: wenode start
-2024-12-15 08:20:22 [simple] INFO: clashmeta found /free-nodes/2024-12-15-free-node-subscribe-links.htm on 2024-03-01
-2024-12-15 08:20:22 [simple] INFO: clashmeta found /free-nodes/2024-12-14-clash-meta-node-github.htm on 2024-03-01
-2024-12-15 08:20:22 [simple] INFO: clashmeta found /free-nodes/2024-12-13-free-subscribe-node.htm on 2024-03-01
-2024-12-15 08:20:22 [simple] INFO: clashmeta found /free-nodes/2024-12-12-clash-meta-node-share.htm on 2024-03-01
-2024-12-15 08:20:22 [simple] INFO: clashmeta found /free-nodes/2024-12-11-node-share.htm on 2024-03-01
-2024-12-15 08:20:22 [simple] INFO: clashmeta found /free-nodes/2024-12-10-free-clash-meta-node.htm on 2024-03-01
-2024-12-15 08:20:22 [simple] INFO: clashmeta found /free-nodes/2024-12-9-node-share.htm on 2024-03-01
-2024-12-15 08:20:22 [simple] INFO: clashmeta found /free-nodes/2024-12-8-free-clash-meta-node.htm on 2024-03-01
-2024-12-15 08:20:22 [simple] INFO: clashmeta found /free-nodes/2024-12-7-latest-clash-meta-node.htm on 2024-03-01
-2024-12-15 08:20:22 [simple] INFO: clashmeta found /free-nodes/2024-12-6-free-high-speed-nodes.htm on 2024-03-01
-2024-12-15 08:20:22 [simple] INFO: clashmeta found /free-nodes/2024-12-5-free-subscribe-node.htm on 2024-03-01
-2024-12-15 08:20:22 [simple] INFO: clashmeta found /free-nodes/2024-12-4-free-node-subscribe-links.htm on 2024-03-01
-2024-12-15 08:20:22 [simple] INFO: clashmeta found /free-nodes/2024-12-3-clash-meta-node-github.htm on 2024-03-01
-2024-12-15 08:20:22 [simple] INFO: clashmeta found /free-nodes/2024-12-2-clash-meta-node-github.htm on 2024-03-01
-2024-12-15 08:20:22 [simple] INFO: clashmeta found /free-nodes/2024-12-1-free-clash-meta-node.htm on 2024-03-01
-2024-12-15 08:20:22 [simple] INFO: clashmeta found /free-nodes/2024-11-30-free-high-speed-nodes.htm on 2024-11-30
-2024-12-15 08:20:22 [simple] INFO: clashmeta found /free-nodes/2024-11-30-free-high-speed-nodes.htm on 2024-11-30
-2024-12-15 08:20:22 [simple] INFO: clashmeta found /free-nodes/2024-11-29-free-subscribe-node.htm on 2024-11-29
-2024-12-15 08:20:22 [simple] INFO: clashmeta found /free-nodes/2024-11-29-free-subscribe-node.htm on 2024-11-29
-2024-12-15 08:20:22 [simple] INFO: clashmeta found /free-nodes/2024-11-28-free-subscribe-node.htm on 2024-11-28
-2024-12-15 08:20:22 [simple] INFO: clashmeta found /free-nodes/2024-11-28-free-subscribe-node.htm on 2024-11-28
-2024-12-15 08:20:22 [simple] INFO: clashmeta found /free-nodes/2024-11-27-clash-meta-node.htm on 2024-11-27
-2024-12-15 08:20:22 [simple] INFO: clashmeta found /free-nodes/2024-11-27-clash-meta-node.htm on 2024-11-27
-2024-12-15 08:20:22 [simple] INFO: clashmeta found /free-nodes/2024-11-26-free-node-subscribe.htm on 2024-11-26
-2024-12-15 08:20:22 [simple] INFO: clashmeta found /free-nodes/2024-11-26-free-node-subscribe.htm on 2024-11-26
-2024-12-15 08:20:22 [simple] INFO: clashmeta is up to date, exiting
-2024-12-15 08:20:22 [simple] INFO: clashmeta is up to date, exiting
-2024-12-15 08:20:22 [simple] INFO: clashmeta is up to date, exiting
-2024-12-15 08:20:22 [simple] INFO: nodev2ray found /free-node/2024-11-30-v2ray-node.htm on 2024-11-30
-2024-12-15 08:20:22 [simple] INFO: nodev2ray found /free-node/2024-11-29-free-subscribe-node.htm on 2024-11-29
-2024-12-15 08:20:22 [simple] INFO: nodev2ray found /free-node/2024-11-28-free-high-speed-nodes.htm on 2024-11-28
-2024-12-15 08:20:22 [simple] INFO: nodev2ray found /free-node/2024-11-27-free-clash.htm on 2024-11-27
-2024-12-15 08:20:22 [simple] INFO: nodev2ray found /free-node/2024-11-26-free-v2ray.htm on 2024-11-26
-2024-12-15 08:20:22 [simple] INFO: nodev2ray is up to date, exiting
-2024-12-15 08:20:22 [simple] INFO: nodev2ray is up to date, exiting
-2024-12-15 08:20:22 [simple] INFO: nodev2ray is up to date, exiting
-2024-12-15 08:20:22 [simple] INFO: wenode is up to date, exiting
-2024-12-15 08:20:22 [simple] INFO: wenode is up to date, exiting
-2024-12-15 08:20:22 [simple] INFO: wenode is up to date, exiting
-2024-12-15 08:20:22 [simple] INFO: v2rayshare is up to date, exiting
-2024-12-15 08:20:22 [simple] INFO: v2rayshare is up to date, exiting
-2024-12-15 08:20:22 [simple] INFO: v2rayshare is up to date, exiting
-2024-12-15 08:20:23 [simple] INFO: nodefree is up to date, exiting
-2024-12-15 08:20:23 [simple] INFO: nodefree is up to date, exiting
-2024-12-15 08:20:23 [simple] INFO: nodefree is up to date, exiting
-2024-12-15 08:20:23 [scrapy.core.engine] INFO: Closing spider (finished)
-2024-12-15 08:20:23 [scrapy.statscollectors] INFO: Dumping Scrapy stats:
-{'downloader/request_bytes': 4432,
+2024-12-15 14:14:16 [scrapy.core.engine] INFO: Spider opened
+2024-12-15 14:14:16 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2024-12-15 14:14:16 [scrapy.extensions.telnet] INFO: Telnet console listening on 127.0.0.1:6023
+2024-12-15 14:14:16 [simple] INFO: clashmeta start
+2024-12-15 14:14:16 [simple] INFO: ndnode start
+2024-12-15 14:14:16 [simple] INFO: nodev2ray start
+2024-12-15 14:14:16 [simple] INFO: nodefree start
+2024-12-15 14:14:16 [simple] INFO: v2rayshare start
+2024-12-15 14:14:16 [simple] INFO: wenode start
+2024-12-15 14:14:16 [simple] INFO: clashmeta found /free-nodes/2024-12-15-free-node-subscribe-links.htm on 2024-03-01
+2024-12-15 14:14:16 [simple] INFO: clashmeta found /free-nodes/2024-12-14-clash-meta-node-github.htm on 2024-03-01
+2024-12-15 14:14:16 [simple] INFO: clashmeta found /free-nodes/2024-12-13-free-subscribe-node.htm on 2024-03-01
+2024-12-15 14:14:16 [simple] INFO: clashmeta found /free-nodes/2024-12-12-clash-meta-node-share.htm on 2024-03-01
+2024-12-15 14:14:16 [simple] INFO: clashmeta found /free-nodes/2024-12-11-node-share.htm on 2024-03-01
+2024-12-15 14:14:16 [simple] INFO: clashmeta found /free-nodes/2024-12-10-free-clash-meta-node.htm on 2024-03-01
+2024-12-15 14:14:16 [simple] INFO: clashmeta found /free-nodes/2024-12-9-node-share.htm on 2024-03-01
+2024-12-15 14:14:16 [simple] INFO: clashmeta found /free-nodes/2024-12-8-free-clash-meta-node.htm on 2024-03-01
+2024-12-15 14:14:16 [simple] INFO: clashmeta found /free-nodes/2024-12-7-latest-clash-meta-node.htm on 2024-03-01
+2024-12-15 14:14:16 [simple] INFO: clashmeta found /free-nodes/2024-12-6-free-high-speed-nodes.htm on 2024-03-01
+2024-12-15 14:14:16 [simple] INFO: clashmeta found /free-nodes/2024-12-5-free-subscribe-node.htm on 2024-03-01
+2024-12-15 14:14:16 [simple] INFO: clashmeta found /free-nodes/2024-12-4-free-node-subscribe-links.htm on 2024-03-01
+2024-12-15 14:14:16 [simple] INFO: clashmeta found /free-nodes/2024-12-3-clash-meta-node-github.htm on 2024-03-01
+2024-12-15 14:14:16 [simple] INFO: clashmeta found /free-nodes/2024-12-2-clash-meta-node-github.htm on 2024-03-01
+2024-12-15 14:14:16 [simple] INFO: clashmeta found /free-nodes/2024-12-1-free-clash-meta-node.htm on 2024-03-01
+2024-12-15 14:14:16 [simple] INFO: clashmeta found /free-nodes/2024-11-30-free-high-speed-nodes.htm on 2024-11-30
+2024-12-15 14:14:16 [simple] INFO: clashmeta found /free-nodes/2024-11-30-free-high-speed-nodes.htm on 2024-11-30
+2024-12-15 14:14:16 [simple] INFO: clashmeta found /free-nodes/2024-11-29-free-subscribe-node.htm on 2024-11-29
+2024-12-15 14:14:16 [simple] INFO: clashmeta found /free-nodes/2024-11-29-free-subscribe-node.htm on 2024-11-29
+2024-12-15 14:14:16 [simple] INFO: clashmeta found /free-nodes/2024-11-28-free-subscribe-node.htm on 2024-11-28
+2024-12-15 14:14:16 [simple] INFO: clashmeta found /free-nodes/2024-11-28-free-subscribe-node.htm on 2024-11-28
+2024-12-15 14:14:16 [simple] INFO: clashmeta found /free-nodes/2024-11-27-clash-meta-node.htm on 2024-11-27
+2024-12-15 14:14:16 [simple] INFO: clashmeta found /free-nodes/2024-11-27-clash-meta-node.htm on 2024-11-27
+2024-12-15 14:14:16 [simple] INFO: clashmeta found /free-nodes/2024-11-26-free-node-subscribe.htm on 2024-11-26
+2024-12-15 14:14:16 [simple] INFO: clashmeta found /free-nodes/2024-11-26-free-node-subscribe.htm on 2024-11-26
+2024-12-15 14:14:16 [simple] INFO: clashmeta is up to date, exiting
+2024-12-15 14:14:16 [simple] INFO: clashmeta is up to date, exiting
+2024-12-15 14:14:16 [simple] INFO: clashmeta is up to date, exiting
+2024-12-15 14:14:16 [simple] INFO: nodev2ray found /free-node/2024-11-30-v2ray-node.htm on 2024-11-30
+2024-12-15 14:14:16 [simple] INFO: nodev2ray found /free-node/2024-11-29-free-subscribe-node.htm on 2024-11-29
+2024-12-15 14:14:16 [simple] INFO: nodev2ray found /free-node/2024-11-28-free-high-speed-nodes.htm on 2024-11-28
+2024-12-15 14:14:16 [simple] INFO: nodev2ray found /free-node/2024-11-27-free-clash.htm on 2024-11-27
+2024-12-15 14:14:16 [simple] INFO: nodev2ray found /free-node/2024-11-26-free-v2ray.htm on 2024-11-26
+2024-12-15 14:14:16 [simple] INFO: nodev2ray is up to date, exiting
+2024-12-15 14:14:16 [simple] INFO: nodev2ray is up to date, exiting
+2024-12-15 14:14:16 [simple] INFO: nodev2ray is up to date, exiting
+2024-12-15 14:14:17 [simple] INFO: wenode is up to date, exiting
+2024-12-15 14:14:17 [simple] INFO: wenode is up to date, exiting
+2024-12-15 14:14:17 [simple] INFO: wenode is up to date, exiting
+2024-12-15 14:14:17 [simple] INFO: v2rayshare is up to date, exiting
+2024-12-15 14:14:17 [simple] INFO: v2rayshare is up to date, exiting
+2024-12-15 14:14:17 [simple] INFO: v2rayshare is up to date, exiting
+2024-12-15 14:14:17 [simple] INFO: nodefree is up to date, exiting
+2024-12-15 14:14:17 [simple] INFO: nodefree is up to date, exiting
+2024-12-15 14:14:17 [simple] INFO: nodefree is up to date, exiting
+2024-12-15 14:14:18 [scrapy.core.engine] INFO: Closing spider (finished)
+2024-12-15 14:14:18 [scrapy.statscollectors] INFO: Dumping Scrapy stats:
+{'downloader/request_bytes': 4501,
  'downloader/request_count': 14,
  'downloader/request_method_count/GET': 14,
- 'downloader/response_bytes': 55894,
+ 'downloader/response_bytes': 55928,
  'downloader/response_count': 14,
  'downloader/response_status_count/200': 11,
  'downloader/response_status_count/301': 2,
  'downloader/response_status_count/404': 1,
- 'elapsed_time_seconds': 1.646481,
+ 'elapsed_time_seconds': 1.817319,
  'finish_reason': 'finished',
- 'finish_time': datetime.datetime(2024, 12, 15, 8, 20, 23, 442620, tzinfo=datetime.timezone.utc),
+ 'finish_time': datetime.datetime(2024, 12, 15, 14, 14, 18, 114365, tzinfo=datetime.timezone.utc),
  'httpcompression/response_bytes': 282138,
  'httpcompression/response_count': 9,
  'items_per_minute': None,
  'log_count/INFO': 61,
- 'memusage/max': 477609984,
- 'memusage/startup': 477609984,
+ 'memusage/max': 477351936,
+ 'memusage/startup': 477351936,
  'response_received_count': 12,
  'responses_per_minute': None,
  'robotstxt/request_count': 6,
@@ -103,17 +103,17 @@
  'scheduler/dequeued/memory': 6,
  'scheduler/enqueued': 6,
  'scheduler/enqueued/memory': 6,
- 'start_time': datetime.datetime(2024, 12, 15, 8, 20, 21, 796139, tzinfo=datetime.timezone.utc)}
-2024-12-15 08:20:23 [scrapy.core.engine] INFO: Spider closed (finished)
-2024-12-15 08:20:27 [scrapy.addons] INFO: Enabled addons:
+ 'start_time': datetime.datetime(2024, 12, 15, 14, 14, 16, 297046, tzinfo=datetime.timezone.utc)}
+2024-12-15 14:14:18 [scrapy.core.engine] INFO: Spider closed (finished)
+2024-12-15 14:14:21 [scrapy.addons] INFO: Enabled addons:
 []
-2024-12-15 08:20:27 [scrapy.extensions.telnet] INFO: Telnet Password: ad902f4c587d4524
-2024-12-15 08:20:27 [scrapy.middleware] INFO: Enabled extensions:
+2024-12-15 14:14:21 [scrapy.extensions.telnet] INFO: Telnet Password: 02110d7ce09d88ae
+2024-12-15 14:14:21 [scrapy.middleware] INFO: Enabled extensions:
 ['scrapy.extensions.corestats.CoreStats',
  'scrapy.extensions.telnet.TelnetConsole',
  'scrapy.extensions.memusage.MemoryUsage',
  'scrapy.extensions.logstats.LogStats']
-2024-12-15 08:20:27 [scrapy.crawler] INFO: Overridden settings:
+2024-12-15 14:14:21 [scrapy.crawler] INFO: Overridden settings:
 {'BOT_NAME': 'NodeScrapy',
  'FEED_EXPORT_ENCODING': 'utf-8',
  'LOG_FILE': 'scrapy.log',
@@ -123,7 +123,7 @@
  'ROBOTSTXT_OBEY': True,
  'SPIDER_MODULES': ['NodeScrapy.spiders'],
  'TWISTED_REACTOR': 'twisted.internet.asyncioreactor.AsyncioSelectorReactor'}
-2024-12-15 08:20:27 [scrapy.middleware] INFO: Enabled downloader middlewares:
+2024-12-15 14:14:21 [scrapy.middleware] INFO: Enabled downloader middlewares:
 ['scrapy.downloadermiddlewares.offsite.OffsiteMiddleware',
  'scrapy.downloadermiddlewares.robotstxt.RobotsTxtMiddleware',
  'scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
@@ -138,26 +138,26 @@
  'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
  'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
  'scrapy.downloadermiddlewares.stats.DownloaderStats']
-2024-12-15 08:20:27 [scrapy.middleware] INFO: Enabled spider middlewares:
+2024-12-15 14:14:21 [scrapy.middleware] INFO: Enabled spider middlewares:
 ['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
  'scrapy.spidermiddlewares.referer.RefererMiddleware',
  'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
  'scrapy.spidermiddlewares.depth.DepthMiddleware']
-2024-12-15 08:20:27 [scrapy.middleware] INFO: Enabled item pipelines:
+2024-12-15 14:14:21 [scrapy.middleware] INFO: Enabled item pipelines:
 ['NodeScrapy.pipelines.Pipeline']
-2024-12-15 08:20:27 [scrapy.core.engine] INFO: Spider opened
-2024-12-15 08:20:27 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
-2024-12-15 08:20:27 [scrapy.extensions.telnet] INFO: Telnet console listening on 127.0.0.1:6023
-2024-12-15 08:20:27 [decrypt] INFO: yudou66 start
-2024-12-15 08:20:27 [decrypt] INFO: blues start
-2024-12-15 08:20:28 [decrypt] INFO: yudou66 is up to date, exiting
-2024-12-15 08:20:28 [decrypt] INFO: yudou66 is up to date, exiting
-2024-12-15 08:20:28 [decrypt] INFO: yudou66 is up to date, exiting
-2024-12-15 08:20:28 [decrypt] INFO: blues needs update, accessing https://blues2022.blogspot.com/2024/12/202412144kchatgpt4k8kclashv2ray.html
-2024-12-15 08:20:28 [decrypt] INFO: blues needs update, accessing https://blues2022.blogspot.com/2024/12/202412134kchatgpt4k8kclashv2ray.html
-2024-12-15 08:20:28 [decrypt] INFO: blues needs update, accessing https://blues2022.blogspot.com/2024/12/202412124kchatgpt4k8kclashv2ray.html
-2024-12-15 08:20:28 [decrypt] INFO: blues found yt_url: https://youtu.be/LTXdrT5Dybk
-2024-12-15 08:20:29 [scrapy.core.scraper] ERROR: Spider error processing <GET https://blues2022.blogspot.com/2024/12/202412124kchatgpt4k8kclashv2ray.html?m=1> (referer: https://blues2022.blogspot.com/?m=1)
+2024-12-15 14:14:21 [scrapy.core.engine] INFO: Spider opened
+2024-12-15 14:14:21 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2024-12-15 14:14:21 [scrapy.extensions.telnet] INFO: Telnet console listening on 127.0.0.1:6023
+2024-12-15 14:14:21 [decrypt] INFO: yudou66 start
+2024-12-15 14:14:21 [decrypt] INFO: blues start
+2024-12-15 14:14:22 [decrypt] INFO: blues needs update, accessing https://blues2022.blogspot.com/2024/12/202412154kchatgpt4k8kclashv2ray.html
+2024-12-15 14:14:22 [decrypt] INFO: blues needs update, accessing https://blues2022.blogspot.com/2024/12/202412144kchatgpt4k8kclashv2ray.html
+2024-12-15 14:14:22 [decrypt] INFO: blues needs update, accessing https://blues2022.blogspot.com/2024/12/202412134kchatgpt4k8kclashv2ray.html
+2024-12-15 14:14:22 [decrypt] INFO: yudou66 is up to date, exiting
+2024-12-15 14:14:22 [decrypt] INFO: yudou66 is up to date, exiting
+2024-12-15 14:14:22 [decrypt] INFO: yudou66 is up to date, exiting
+2024-12-15 14:14:22 [decrypt] INFO: blues found yt_url: https://youtu.be/GVcHubPUvJE
+2024-12-15 14:14:23 [scrapy.core.scraper] ERROR: Spider error processing <GET https://blues2022.blogspot.com/2024/12/202412134kchatgpt4k8kclashv2ray.html?m=1> (referer: https://blues2022.blogspot.com/?m=1)
 Traceback (most recent call last):
   File "/opt/hostedtoolcache/Python/3.11.11/x64/lib/python3.11/site-packages/scrapy/utils/defer.py", line 327, in iter_errback
     yield next(it)
@@ -207,8 +207,8 @@ Traceback (most recent call last):
   File "/opt/hostedtoolcache/Python/3.11.11/x64/lib/python3.11/site-packages/pytubefix/innertube.py", line 521, in _default_oauth_verifier
     input('Press enter when you have completed this step.')
 EOFError: EOF when reading a line
-2024-12-15 08:20:29 [decrypt] INFO: blues found yt_url: https://youtu.be/GVcHubPUvJE
-2024-12-15 08:20:30 [scrapy.core.scraper] ERROR: Spider error processing <GET https://blues2022.blogspot.com/2024/12/202412134kchatgpt4k8kclashv2ray.html?m=1> (referer: https://blues2022.blogspot.com/?m=1)
+2024-12-15 14:14:23 [decrypt] INFO: blues found yt_url: https://youtu.be/EMsTM2Wk0nI
+2024-12-15 14:14:24 [scrapy.core.scraper] ERROR: Spider error processing <GET https://blues2022.blogspot.com/2024/12/202412154kchatgpt4k8kclashv2ray.html?m=1> (referer: https://blues2022.blogspot.com/?m=1)
 Traceback (most recent call last):
   File "/opt/hostedtoolcache/Python/3.11.11/x64/lib/python3.11/site-packages/scrapy/utils/defer.py", line 327, in iter_errback
     yield next(it)
@@ -258,8 +258,8 @@ Traceback (most recent call last):
   File "/opt/hostedtoolcache/Python/3.11.11/x64/lib/python3.11/site-packages/pytubefix/innertube.py", line 521, in _default_oauth_verifier
     input('Press enter when you have completed this step.')
 EOFError: EOF when reading a line
-2024-12-15 08:20:30 [decrypt] INFO: blues found yt_url: https://youtu.be/a5kjt44YdcU
-2024-12-15 08:20:31 [scrapy.core.scraper] ERROR: Spider error processing <GET https://blues2022.blogspot.com/2024/12/202412144kchatgpt4k8kclashv2ray.html?m=1> (referer: https://blues2022.blogspot.com/?m=1)
+2024-12-15 14:14:24 [decrypt] INFO: blues found yt_url: https://youtu.be/a5kjt44YdcU
+2024-12-15 14:14:25 [scrapy.core.scraper] ERROR: Spider error processing <GET https://blues2022.blogspot.com/2024/12/202412144kchatgpt4k8kclashv2ray.html?m=1> (referer: https://blues2022.blogspot.com/?m=1)
 Traceback (most recent call last):
   File "/opt/hostedtoolcache/Python/3.11.11/x64/lib/python3.11/site-packages/scrapy/utils/defer.py", line 327, in iter_errback
     yield next(it)
@@ -309,25 +309,25 @@ Traceback (most recent call last):
   File "/opt/hostedtoolcache/Python/3.11.11/x64/lib/python3.11/site-packages/pytubefix/innertube.py", line 521, in _default_oauth_verifier
     input('Press enter when you have completed this step.')
 EOFError: EOF when reading a line
-2024-12-15 08:20:31 [scrapy.core.engine] INFO: Closing spider (finished)
-2024-12-15 08:20:31 [scrapy.statscollectors] INFO: Dumping Scrapy stats:
-{'downloader/request_bytes': 4731,
+2024-12-15 14:14:25 [scrapy.core.engine] INFO: Closing spider (finished)
+2024-12-15 14:14:25 [scrapy.statscollectors] INFO: Dumping Scrapy stats:
+{'downloader/request_bytes': 4647,
  'downloader/request_count': 13,
  'downloader/request_method_count/GET': 13,
- 'downloader/response_bytes': 209565,
+ 'downloader/response_bytes': 209959,
  'downloader/response_count': 13,
  'downloader/response_status_count/200': 7,
  'downloader/response_status_count/302': 6,
- 'elapsed_time_seconds': 3.644582,
+ 'elapsed_time_seconds': 4.037786,
  'finish_reason': 'finished',
- 'finish_time': datetime.datetime(2024, 12, 15, 8, 20, 31, 550100, tzinfo=datetime.timezone.utc),
- 'httpcompression/response_bytes': 1149140,
+ 'finish_time': datetime.datetime(2024, 12, 15, 14, 14, 25, 787654, tzinfo=datetime.timezone.utc),
+ 'httpcompression/response_bytes': 1149122,
  'httpcompression/response_count': 7,
  'items_per_minute': None,
  'log_count/ERROR': 3,
  'log_count/INFO': 21,
- 'memusage/max': 475742208,
- 'memusage/startup': 475742208,
+ 'memusage/max': 475664384,
+ 'memusage/startup': 475664384,
  'request_depth_max': 1,
  'response_received_count': 7,
  'responses_per_minute': None,
@@ -339,5 +339,5 @@ EOFError: EOF when reading a line
  'scheduler/enqueued': 10,
  'scheduler/enqueued/memory': 10,
  'spider_exceptions/EOFError': 3,
- 'start_time': datetime.datetime(2024, 12, 15, 8, 20, 27, 905518, tzinfo=datetime.timezone.utc)}
-2024-12-15 08:20:31 [scrapy.core.engine] INFO: Spider closed (finished)
+ 'start_time': datetime.datetime(2024, 12, 15, 14, 14, 21, 749868, tzinfo=datetime.timezone.utc)}
+2024-12-15 14:14:25 [scrapy.core.engine] INFO: Spider closed (finished)
