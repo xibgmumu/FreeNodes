@@ -52,13 +52,13 @@
   },
   "nodefree": {
     "start_url": "https://nodefree.org",
-    "up_date": "2025-01-09",
+    "up_date": "2025-01-10",
     "selector": "a[rel='bookmark']",
     "pattern": "https://nodefree.githubrowcontent.com/[^<>\\r\\n]+"
   },
   "v2rayshare": {
     "start_url": "https://v2rayshare.com",
-    "up_date": "2025-01-09",
+    "up_date": "2025-01-10",
     "selector": ".list-body a",
     "pattern": "https://v2rayshare.githubrowcontent.com/[^<>\\r\\n]+"
   },
