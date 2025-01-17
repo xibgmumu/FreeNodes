@@ -26,13 +26,6 @@ proxies:
   type: trojan
   udp: true
 - name: _中国
-  password: fdd37849-e66c-464d-8b1c-56a1a16e05bf
-  port: 443
-  server: 119.8.115.238
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: _中国 2
   password: 0bc68743-cff8-4730-9818-9d8192ee335c
   port: 21142
   server: 120.232.217.96
@@ -46,31 +39,14 @@ proxies:
   server: 95.217.72.126
   type: ss
   udp: true
-- alterId: 0
-  cipher: auto
-  name: _德国
-  port: 8080
-  server: 185.189.58.195
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 42e25353-b1ae-59f3-bd59-d86d2737b814
-- cipher: aes-256-gcm
-  name: _俄罗斯
-  password: 560b7d65c1f4b12a
-  port: 16431
-  server: 194.87.69.122
-  type: ss
-  udp: true
-- name: _中国 3
+- name: _中国 2
   password: 0bc68743-cff8-4730-9818-9d8192ee335c
   port: 39431
   server: 120.232.217.96
   skip-cert-verify: true
   type: trojan
   udp: true
-- name: _中国 4
+- name: _中国 3
   password: 38571ca6-6692-4559-b901-0bc5826b7661
   port: 60194
   server: ru0195.alibabaokz.com
@@ -85,18 +61,53 @@ proxies:
   server: 195.15.254.25
   type: ss
   udp: true
-- cipher: aes-256-gcm
-  name: _韩国
-  password: amazonskr05
-  port: 80
-  server: 3.35.20.163
+- name: _CN_中国->🇺🇸_US_美国
+  password: 0bc68743-cff8-4730-9818-9d8192ee335c
+  port: 21019
+  server: 219.135.231.205
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: _CN_中国->🇺🇸_US_美国 2
+  password: 0bc68743-cff8-4730-9818-9d8192ee335c
+  port: 40037
+  server: 219.135.231.205
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- cipher: aes-256-cfb
+  name: _IT_意大利
+  password: f8f7aCzcPKbsF8p3
+  port: 989
+  server: 37.143.129.230
   type: ss
   udp: true
-- cipher: chacha20-ietf-poly1305
-  name: _伊朗
-  password: zUQvFioae7KzAZ2GCMgNum
-  port: 9848
-  server: 83.147.216.173
+- cipher: aes-256-cfb
+  name: _US_美国
+  password: f8f7aCzcPKbsF8p3
+  port: 989
+  server: 185.47.252.251
+  type: ss
+  udp: true
+- cipher: rc4-md5
+  name: _RO_罗马尼亚
+  password: 14fFPrbezE3HDZzsMOr6
+  port: 8080
+  server: 194.5.215.59
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: _RO_罗马尼亚 2
+  password: f8f7aCzcPKbsF8p3
+  port: 989
+  server: 185.193.49.88
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: _MD_摩尔多瓦
+  password: f8f7aCzcPKbsF8p3
+  port: 989
+  server: 91.132.94.200
   type: ss
   udp: true
 proxy-groups:
@@ -105,29 +116,33 @@ proxy-groups:
   - ♻️ 自动选择
   - 🎯 全球直连
   - _中国
-  - _中国 2
   - _芬兰
-  - _德国
-  - _俄罗斯
+  - _中国 2
   - _中国 3
-  - _中国 4
   - _瑞士
-  - _韩国
-  - _伊朗
+  - _CN_中国->🇺🇸_US_美国
+  - _CN_中国->🇺🇸_US_美国 2
+  - _IT_意大利
+  - _US_美国
+  - _RO_罗马尼亚
+  - _RO_罗马尼亚 2
+  - _MD_摩尔多瓦
   type: select
 - interval: 300
   name: ♻️ 自动选择
   proxies:
   - _中国
-  - _中国 2
   - _芬兰
-  - _德国
-  - _俄罗斯
+  - _中国 2
   - _中国 3
-  - _中国 4
   - _瑞士
-  - _韩国
-  - _伊朗
+  - _CN_中国->🇺🇸_US_美国
+  - _CN_中国->🇺🇸_US_美国 2
+  - _IT_意大利
+  - _US_美国
+  - _RO_罗马尼亚
+  - _RO_罗马尼亚 2
+  - _MD_摩尔多瓦
   type: url-test
   url: http://www.gstatic.com/generate_204
 - name: 🎥 NETFLIX
@@ -136,15 +151,17 @@ proxy-groups:
   - ♻️ 自动选择
   - 🎯 全球直连
   - _中国
-  - _中国 2
   - _芬兰
-  - _德国
-  - _俄罗斯
+  - _中国 2
   - _中国 3
-  - _中国 4
   - _瑞士
-  - _韩国
-  - _伊朗
+  - _CN_中国->🇺🇸_US_美国
+  - _CN_中国->🇺🇸_US_美国 2
+  - _IT_意大利
+  - _US_美国
+  - _RO_罗马尼亚
+  - _RO_罗马尼亚 2
+  - _MD_摩尔多瓦
   type: select
 - name: ⛔️ 广告拦截
   proxies:
@@ -164,15 +181,17 @@ proxy-groups:
   - ♻️ 自动选择
   - 🎯 全球直连
   - _中国
-  - _中国 2
   - _芬兰
-  - _德国
-  - _俄罗斯
+  - _中国 2
   - _中国 3
-  - _中国 4
   - _瑞士
-  - _韩国
-  - _伊朗
+  - _CN_中国->🇺🇸_US_美国
+  - _CN_中国->🇺🇸_US_美国 2
+  - _IT_意大利
+  - _US_美国
+  - _RO_罗马尼亚
+  - _RO_罗马尼亚 2
+  - _MD_摩尔多瓦
   type: select
 - name: 🌏 国内媒体
   proxies:
@@ -184,30 +203,34 @@ proxy-groups:
   - 🎯 全球直连
   - 🔰 节点选择
   - _中国
-  - _中国 2
   - _芬兰
-  - _德国
-  - _俄罗斯
+  - _中国 2
   - _中国 3
-  - _中国 4
   - _瑞士
-  - _韩国
-  - _伊朗
+  - _CN_中国->🇺🇸_US_美国
+  - _CN_中国->🇺🇸_US_美国 2
+  - _IT_意大利
+  - _US_美国
+  - _RO_罗马尼亚
+  - _RO_罗马尼亚 2
+  - _MD_摩尔多瓦
   type: select
 - name: 📲 电报信息
   proxies:
   - 🔰 节点选择
   - 🎯 全球直连
   - _中国
-  - _中国 2
   - _芬兰
-  - _德国
-  - _俄罗斯
+  - _中国 2
   - _中国 3
-  - _中国 4
   - _瑞士
-  - _韩国
-  - _伊朗
+  - _CN_中国->🇺🇸_US_美国
+  - _CN_中国->🇺🇸_US_美国 2
+  - _IT_意大利
+  - _US_美国
+  - _RO_罗马尼亚
+  - _RO_罗马尼亚 2
+  - _MD_摩尔多瓦
   type: select
 - name: 🍎 苹果服务
   proxies:
@@ -215,15 +238,17 @@ proxy-groups:
   - 🎯 全球直连
   - ♻️ 自动选择
   - _中国
-  - _中国 2
   - _芬兰
-  - _德国
-  - _俄罗斯
+  - _中国 2
   - _中国 3
-  - _中国 4
   - _瑞士
-  - _韩国
-  - _伊朗
+  - _CN_中国->🇺🇸_US_美国
+  - _CN_中国->🇺🇸_US_美国 2
+  - _IT_意大利
+  - _US_美国
+  - _RO_罗马尼亚
+  - _RO_罗马尼亚 2
+  - _MD_摩尔多瓦
   type: select
 - name: 🎯 全球直连
   proxies:
@@ -240,15 +265,17 @@ proxy-groups:
   - 🎯 全球直连
   - ♻️ 自动选择
   - _中国
-  - _中国 2
   - _芬兰
-  - _德国
-  - _俄罗斯
+  - _中国 2
   - _中国 3
-  - _中国 4
   - _瑞士
-  - _韩国
-  - _伊朗
+  - _CN_中国->🇺🇸_US_美国
+  - _CN_中国->🇺🇸_US_美国 2
+  - _IT_意大利
+  - _US_美国
+  - _RO_罗马尼亚
+  - _RO_罗马尼亚 2
+  - _MD_摩尔多瓦
   type: select
 rules:
 - DOMAIN-SUFFIX,local,🎯 全球直连
